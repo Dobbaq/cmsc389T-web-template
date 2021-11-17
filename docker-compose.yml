@@ -5,7 +5,11 @@ services:
     #fill out the configuration here
     networks:
       - app-network
-  
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: node:10-alpine
+    container_name: website
   #the nginx configuration is given below
   #the website will run on localhost:80 
   webserver:
@@ -28,7 +32,7 @@ volumes:
     driver_opts:
       type: none
       #fill out your absolute path to your folder here
-      device: /absolute/path/to/web/template/folder
+      device: /home/node/app
       o: bind
 
 networks:
