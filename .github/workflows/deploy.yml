@@ -26,4 +26,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
               cd cmsc389T-web-template
-              git clone https://github.com/Dobbaq/cmsc389T-web-template.git
+              git pull
