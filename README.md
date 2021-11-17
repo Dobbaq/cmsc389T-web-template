@@ -16,8 +16,8 @@ Website Template for Project 5
         increased profile protrait size to height: 225px and width: 240px
         changed font colors to black and increased size of body font for the body paragraphs
 
-## Links
-    [Pages](https://dobbaq.github.io/cmsc389T-web-template/)
+    # Links
+    [Pages](https://dobbaq.github.io/cmsc389T-web-template/).
     
-    [TerpConnect](https://terpconnect.umd.edu/~jbelden/cmsc389T-web-template/)
+    [TerpConnect](https://terpconnect.umd.edu/~jbelden/cmsc389T-web-template/).
     
